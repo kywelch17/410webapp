@@ -100,7 +100,7 @@
     <body>
     <a href="index.php">Home</a>
     <br/><br/>
-
+    <!-- This creates the form (very similar to the form for adding) and shows the information that matches the id -->
     <form name="form1" method="post" action="editFaculty.php">
         <table border="0">
             <tr>

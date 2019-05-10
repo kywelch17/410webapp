@@ -1,4 +1,7 @@
-<html lang = "en">
+<!-- File created by Kyle Welch -->
+<!-- This is used to edit information on a student. This setup looks familiar to editClass.php and edit faculty.php-->
+<!-- I had used a Bootstrap drag-and-click generator, as my CSS skills are very rusty plus it saved a lot of time. Here is a link,
+and it will be provided in the final writeup https://mobirise.com/ --><html lang = "en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
@@ -43,6 +46,7 @@
         </div>
     </nav>
 </section>
+<!-- The structure of the tables -->
 <style>
     body {
         text-align: center;
@@ -92,6 +96,7 @@
             $pW = $res['password'];
     }
     ?>
+    <!-- This creates the form (very similar to the form for adding) and shows the information that matches the id -->
     <form name="form1" method="post" action="editStudents.php">
         <table border="0">
             <tr>

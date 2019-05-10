@@ -9,7 +9,12 @@ and it will be provided in the final writeup https://mobirise.com/ -->
 require_once('connect.php');
 session_start();
 ?>
-
+<!-- File created by Kyle Welch -->
+<!-- This file is mostly HTML front-end work. The faculty page the my app. Doesn't really require a connection to the db,
+but I added it just for show. This allows the user three options for the faculty. They can either view the view professors in this dept,
+ or add a new professor -->
+<!-- I had used a Bootstrap drag-and-click generator, as my CSS skills are very rusty plus it saved a lot of time. Here is a link,
+and it will be provided in the final writeup https://mobirise.com/ -->
 <html>
 <head>
     <meta charset="UTF-8">

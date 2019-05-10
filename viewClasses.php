@@ -1,10 +1,17 @@
+<!-- File created by Kyle Welch -->
+<!-- This file is mostly HTML front-end work. The View Classes Page. Doesn't really require a connection to the db,
+but I added it just for show. -->
+<!-- I had used a Bootstrap drag-and-click generator, as my CSS skills are very rusty plus it saved a lot of time. Here is a link,
+and it will be provided in the final writeup https://mobirise.com/ -->
+
 <?php
 require_once('connect.php');
 session_start();
 
-$resultQuery = mysqli_query($mysqli, "SELECT class.id, class, description, professor.name AS prof_id 
-    FROM class 
-    JOIN professor ON professor.id=class.prof_id");
+$resultQuery = mysqli_query($mysqli, "SELECT class.id, class, 
+                                            description, professor.name AS prof_id 
+                                            FROM class 
+                                            JOIN professor ON professor.id=class.prof_id");
 ?>
 
 <html>

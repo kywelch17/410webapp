@@ -1,3 +1,8 @@
+<!-- File created by Kyle Welch -->
+<!-- This is used to add a new student to the database through the webapp. The structure is very similiar in addFaculty.php and
+add.Classes.php-->
+<!-- I had used a Bootstrap drag-and-click generator, as my CSS skills are very rusty plus it saved a lot of time. Here is a link,
+and it will be provided in the final writeup https://mobirise.com/ -->
 <html lang = "en">
 <head>
     <meta charset="UTF-8">

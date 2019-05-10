@@ -83,6 +83,7 @@
         $prof_id = $res['prof_id'];
     }
     ?>
+    <!-- This creates the form (very similar to the form for adding) and shows the information that matches the id -->
     <form name="form1" method="post" action="editClasses.php">
         <table border="0">
             <tr>
