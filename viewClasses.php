@@ -12,7 +12,7 @@ $resultQuery = mysqli_query($mysqli, "SELECT class.id, class, description, profe
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
-    <title>WUCS - Students</title>
+    <title>WUCS - Classes</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
