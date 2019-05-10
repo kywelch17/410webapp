@@ -58,7 +58,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="title col-12 col-lg-8">
-                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">Add New Faculty</h2>
+                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">Add New Class</h2>
             </div>
         </div>
     </div>
