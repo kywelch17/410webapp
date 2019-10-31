@@ -2,8 +2,6 @@
 <!-- This file is mostly HTML front-end work. The student homepage the my app. Doesn't really require a connection to the db,
 but I added it just for show. This allows the user three options for the students. They can either view the students enrolled in this dept,
  add a new student (admin only), or they can change a student (admin only).-->
-<!-- I had used a Bootstrap drag-and-click generator, as my CSS skills are very rusty plus it saved a lot of time. Here is a link,
-and it will be provided in the final writeup https://mobirise.com/ -->
 <?php
 require_once('connect.php');
 session_start();
